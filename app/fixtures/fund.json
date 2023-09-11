@@ -1,0 +1,21 @@
+{ "fund": {
+    "title": "CushonMix medium risk/return ISA",
+    "description": "Spreading your money allows each individual fund to be slightly riskier, which helps boost projected returns, whilst still controlling the overall risk of the investment.\n\nThis means the CushonMix offers higher projected returns than alternative investment strategies with the same risk profile. Find out more about the CushonMix portfolios.\n\nRemember, you can set up as many separate ISA pots as you like with Cushon and they all sit in one main account behind the scenes. This is helpful if you want to ring-fence different pots for different savings goals, or to spread your money across different risk profiles.",
+    "summary": "This CushonMix portfolio spreads your money across a specially selected range of top-rated funds from our comparison tables.",
+    "riskLevel": "low",
+    "results": {
+        "mostLikely": {
+            "percent": 5.24,
+            "sampleAmount": 6875                },
+        "pessimistic": {
+            "percent": -0.03,
+            "sampleAmount": 5995
+        },
+        "optimistic": {
+            "percent": 10.51,
+            "sampleAmount": 7927
+        }
+    },
+    "charges": 1.01
+}
+}

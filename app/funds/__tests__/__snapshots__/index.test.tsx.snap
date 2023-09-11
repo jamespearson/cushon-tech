@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds Screen it should render a list of available funds should render as expected 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 24,
+      "padding": 24,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontFamily": "MuseoSansRounded500",
+        "fontSize": 32,
+        "lineHeight": 42,
+      }
+    }
+  >
+    Compare ISA investments
+  </Text>
+  <Text
+    style={
+      {
+        "fontFamily": "MuseoSansRounded300",
+        "fontSize": 14,
+        "lineHeight": 22,
+      }
+    }
+  >
+    You can trust our comparison tables - we don't get paid any commission. Projections are useful, but they are not reliable indicators of future performance. Remember that investing is risky and you may get back less than the bad case or even less than you put in.
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 24,
+      }
+    }
+  >
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      collapsable={false}
+      data={
+        [
+          {
+            "charges": 0.9,
+            "results": {
+              "mostLikely": {
+                "percent": 4.08,
+                "sampleAmount": 6667,
+              },
+              "optimistic": {
+                "percent": 6.42,
+                "sampleAmount": 7093,
+              },
+              "pessimistic": {
+                "percent": 1.72,
+                "sampleAmount": 6274,
+              },
+            },
+            "riskLevel": "low",
+            "title": "Ethical CushonMix",
+          },
+          {
+            "charges": 0.99,
+            "results": {
+              "mostLikely": {
+                "percent": 5.35,
+                "sampleAmount": 6894,
+              },
+              "optimistic": {
+                "percent": 10.85,
+                "sampleAmount": 8002,
+              },
+              "pessimistic": {
+                "percent": -0.15,
+                "sampleAmount": 5977,
+              },
+            },
+            "riskLevel": "medium",
+            "title": "Fidelity Multi Asset Allocator ",
+          },
+          {
+            "charges": 1.08,
+            "results": {
+              "mostLikely": {
+                "percent": 5.29,
+                "sampleAmount": 6884,
+              },
+              "optimistic": {
+                "percent": 10.85,
+                "sampleAmount": 8002,
+              },
+              "pessimistic": {
+                "percent": -0.27,
+                "sampleAmount": 5959,
+              },
+            },
+            "riskLevel": "high",
+            "title": "VT AJ Bell Balanced",
+          },
+          {
+            "charges": 1.01,
+            "results": {
+              "mostLikely": {
+                "percent": 5.24,
+                "sampleAmount": 6875,
+              },
+              "optimistic": {
+                "percent": 10.51,
+                "sampleAmount": 7927,
+              },
+              "pessimistic": {
+                "percent": -0.03,
+                "sampleAmount": 5995,
+              },
+            },
+            "riskLevel": "low",
+            "title": "Vanguard LifeStrategy",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      handlerTag={1}
+      handlerType="NativeViewGestureHandler"
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      renderScrollComponent={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+      waitFor={
+        [
+          {
+            "current": null,
+          },
+          {
+            "current": null,
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignContent": "center",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "padding": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontFamily": "MuseoSansRounded700",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              Ethical CushonMix
+            </Text>
+            <View
+              style={
+                {
+                  "gap": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "gap": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "fontFamily": "MuseoSansRounded700",
+                      "fontSize": 18,
+                      "lineHeight": 24,
+                    }
+                  }
+                >
+                  Projected Returns
+                </Text>
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "gap": 24,
+                    }
+                  }
+                >
+                  <View>
+                    <Text>
+                      Most Likley
+                    </Text>
+                    <Text>
+                      £
+                      4.08
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Good Case
+                    </Text>
+                    <Text>
+                      £
+                      6.42
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Bad Case
+                    </Text>
+                    <Text>
+                      £
+                      1.72
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignSelf": "stretch",
+                      "backgroundColor": "#df2f89",
+                      "borderColor": "#df2f89",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "padding": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={{}}
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "MuseoSansRounded700",
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      SELECT FUND
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 24,
+              }
+            }
+          />
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignContent": "center",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "padding": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontFamily": "MuseoSansRounded700",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              Fidelity Multi Asset Allocator 
+            </Text>
+            <View
+              style={
+                {
+                  "gap": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "gap": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "fontFamily": "MuseoSansRounded700",
+                      "fontSize": 18,
+                      "lineHeight": 24,
+                    }
+                  }
+                >
+                  Projected Returns
+                </Text>
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "gap": 24,
+                    }
+                  }
+                >
+                  <View>
+                    <Text>
+                      Most Likley
+                    </Text>
+                    <Text>
+                      £
+                      5.35
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Good Case
+                    </Text>
+                    <Text>
+                      £
+                      10.85
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Bad Case
+                    </Text>
+                    <Text>
+                      £
+                      -0.15
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignSelf": "stretch",
+                      "backgroundColor": "#df2f89",
+                      "borderColor": "#df2f89",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "padding": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={{}}
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "MuseoSansRounded700",
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      SELECT FUND
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 24,
+              }
+            }
+          />
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignContent": "center",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "padding": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontFamily": "MuseoSansRounded700",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              VT AJ Bell Balanced
+            </Text>
+            <View
+              style={
+                {
+                  "gap": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "gap": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "fontFamily": "MuseoSansRounded700",
+                      "fontSize": 18,
+                      "lineHeight": 24,
+                    }
+                  }
+                >
+                  Projected Returns
+                </Text>
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "gap": 24,
+                    }
+                  }
+                >
+                  <View>
+                    <Text>
+                      Most Likley
+                    </Text>
+                    <Text>
+                      £
+                      5.29
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Good Case
+                    </Text>
+                    <Text>
+                      £
+                      10.85
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Bad Case
+                    </Text>
+                    <Text>
+                      £
+                      -0.27
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignSelf": "stretch",
+                      "backgroundColor": "#df2f89",
+                      "borderColor": "#df2f89",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "padding": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={{}}
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "MuseoSansRounded700",
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      SELECT FUND
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 24,
+              }
+            }
+          />
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignContent": "center",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "padding": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontFamily": "MuseoSansRounded700",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              Vanguard LifeStrategy
+            </Text>
+            <View
+              style={
+                {
+                  "gap": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "gap": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "fontFamily": "MuseoSansRounded700",
+                      "fontSize": 18,
+                      "lineHeight": 24,
+                    }
+                  }
+                >
+                  Projected Returns
+                </Text>
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "gap": 24,
+                    }
+                  }
+                >
+                  <View>
+                    <Text>
+                      Most Likley
+                    </Text>
+                    <Text>
+                      £
+                      5.24
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Good Case
+                    </Text>
+                    <Text>
+                      £
+                      10.51
+                    </Text>
+                  </View>
+                  <View>
+                    <Text>
+                      Bad Case
+                    </Text>
+                    <Text>
+                      £
+                      -0.03
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignSelf": "stretch",
+                      "backgroundColor": "#df2f89",
+                      "borderColor": "#df2f89",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "padding": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={{}}
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "MuseoSansRounded700",
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      SELECT FUND
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

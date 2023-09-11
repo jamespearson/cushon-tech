@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Investment Success Screen should render as expected 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "gap": 24,
+      "justifyContent": "center",
+      "padding": 24,
+    }
+  }
+>
+  <Text />
+  <Text
+    style={
+      {
+        "fontFamily": "MuseoSansRounded500",
+        "fontSize": 32,
+        "lineHeight": 42,
+      }
+    }
+  >
+    Congratulations
+  </Text>
+  <Text
+    style={
+      {
+        "fontFamily": "MuseoSansRounded700",
+        "fontSize": 18,
+        "lineHeight": 24,
+      }
+    }
+  >
+    Your investment was successful.
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "stretch",
+        "backgroundColor": "#df2f89",
+        "borderColor": "#df2f89",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 24,
+      }
+    }
+  >
+    <View
+      style={{}}
+    >
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontFamily": "MuseoSansRounded700",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        VIEW INVESTMENTS
+      </Text>
+    </View>
+  </View>
+</View>
+`;

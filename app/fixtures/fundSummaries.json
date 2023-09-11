@@ -1,0 +1,79 @@
+{
+    "funds": [
+        {
+            "title": "Ethical CushonMix",
+            "riskLevel": "low",
+            "results": {
+                "mostLikely": {
+                    "percent": 4.08,
+                    "sampleAmount": 6667
+                },
+                "pessimistic": {
+                    "percent": 1.72,
+                    "sampleAmount": 6274
+                },
+                "optimistic": {
+                    "percent": 6.42,
+                    "sampleAmount": 7093
+                }
+            },
+            "charges": 0.9
+        },
+        {
+            "title": "Fidelity Multi Asset Allocator ",
+            "riskLevel": "medium",
+            "results": {
+                "mostLikely": {
+                    "percent":5.35,
+                    "sampleAmount": 6894
+                },
+                "pessimistic": {
+                    "percent": -0.15,
+                    "sampleAmount": 5977
+                },
+                "optimistic": {
+                    "percent": 10.85,
+                    "sampleAmount": 8002
+                }
+            },
+            "charges": 0.99
+        },
+        {
+            "title": "VT AJ Bell Balanced",
+            "riskLevel": "high",
+            "results": {
+                "mostLikely": {
+                    "percent": 5.29,
+                    "sampleAmount": 6884
+                },
+                "pessimistic": {
+                    "percent": -0.27,
+                    "sampleAmount": 5959
+                },
+                "optimistic": {
+                    "percent": 10.85,
+                    "sampleAmount": 8002
+                }
+            },
+            "charges": 1.08
+        },
+        {
+            "title": "Vanguard LifeStrategy",
+            "riskLevel": "low",
+            "results": {
+                "mostLikely": {
+                    "percent": 5.24,
+                    "sampleAmount": 6875                },
+                "pessimistic": {
+                    "percent": -0.03,
+                    "sampleAmount": 5995
+                },
+                "optimistic": {
+                    "percent": 10.51,
+                    "sampleAmount": 7927
+                }
+            },
+            "charges": 1.01
+        }
+    ]
+}

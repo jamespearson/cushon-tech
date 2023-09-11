@@ -27,8 +27,7 @@
       "package": "com.mightberobot.sandbox"
     },
     "plugins": [
-      "expo-router",
-      "@config-plugins/detox"
+      "expo-router"
     ],
     "extra": {
       "router": {
