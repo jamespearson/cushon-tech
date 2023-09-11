@@ -16,16 +16,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mightberobot.sandbox"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mightberobot.sandbox"
     },
     "plugins": [
-      "expo-router"
-    ]
+      "expo-router",
+      "@config-plugins/detox"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "853aca34-20de-49d4-870c-6960c3c072a8"
+      }
+    }
   }
 }
